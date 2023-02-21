@@ -25,6 +25,9 @@ function Header() {
           <Link to="condrend" class="nav-link">Conditional Rendering</Link>
         </li>
         <li class="nav-item">
+          <Link to="counter" class="nav-link">Counter App</Link>
+        </li>
+        <li class="nav-item">
           <Link to="contactUs" class="nav-link">Contact Us</Link>
         </li>
         <li class="nav-item">
