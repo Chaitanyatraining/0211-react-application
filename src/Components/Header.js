@@ -28,6 +28,18 @@ function Header() {
           <Link to="counter" class="nav-link">Counter App</Link>
         </li>
         <li class="nav-item">
+          <Link to="lifecyclemethod" class="nav-link">lifecyclemethod </Link>
+        </li>
+        <li class="nav-item">
+          <Link to="pagination" class="nav-link">Pagination </Link>
+        </li>
+        <li class="nav-item">
+          <Link to="funccounter" class="nav-link">funcHooks </Link>
+        </li>
+        <li class="nav-item">
+          <Link to="useEffecthook" class="nav-link">useEffecthook </Link>
+        </li>
+        <li class="nav-item">
           <Link to="contactUs" class="nav-link">Contact Us</Link>
         </li>
         <li class="nav-item">

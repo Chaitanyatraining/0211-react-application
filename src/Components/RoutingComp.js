@@ -4,6 +4,10 @@ import StylingComp from '../stylings/StylingComp'
 import ConditionlRend from './ConditionlRend'
 import ContactUs from './ContactUs'
 import Counter from './Counter'
+import FuncCounter from './Hooks/FuncCounter'
+import UseEffectUserData from './Hooks/UseEffectUserData'
+import LifeCycleComp from './LifeCycleComp'
+import Pagination from './Pagination'
 import UserlistandKeys from './UserlistandKeys'
 
 function RoutingComp() {
@@ -15,6 +19,10 @@ function RoutingComp() {
             <Route path="/condrend" element={<ConditionlRend />}  />
             <Route path="/contactUs" element={<ContactUs />}  />
             <Route path="/counter" element={<Counter />}  />
+            <Route path="/lifecyclemethod" element={<LifeCycleComp />}  />
+            <Route path="/pagination" element={<Pagination />}  />
+            <Route path="/funccounter" element={<FuncCounter />}  />
+            <Route path="/useEffecthook" element={<UseEffectUserData />}  />
         </Routes>
     </div>
   )
