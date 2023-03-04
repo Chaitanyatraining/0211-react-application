@@ -7,11 +7,21 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Header from './Components/Header';
 import UserlistandKeys from './Components/UserlistandKeys';
 import RoutingComp from './Components/RoutingComp';
+import React from 'react';
+import CompB from './Components/Hooks/useContexthook/CompB';
+import CompA from './Components/Hooks/useContexthook/CompA';
+
+export const usercontext = React.createContext();
+
 function App() {
   return (
    <div className='App'>
     <Header />
-    <RoutingComp />
+    <usercontext.Provider value={"Reactjs Training"}>
+      <CompA  />
+    </usercontext.Provider>
+    {/* <RoutingComp /> */}
+
     {/* <UserlistandKeys /> */}
       {/* <DemoComp />
       <FunctionComp courseName="ReactJs" duration="3 Months" />

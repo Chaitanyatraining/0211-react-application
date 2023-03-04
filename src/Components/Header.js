@@ -40,8 +40,18 @@ function Header() {
           <Link to="useEffecthook" class="nav-link">useEffecthook </Link>
         </li>
         <li class="nav-item">
+          <Link to="useEffectpagination" class="nav-link">useEffectPagination </Link>
+        </li>
+        <li class="nav-item">
+          <Link to="userefhook" class="nav-link">userefhook </Link>
+        </li>
+        <li class="nav-item">
+          <Link to="usecontexthook" class="nav-link">usecontexthook</Link>
+        </li>
+        <li class="nav-item">
           <Link to="contactUs" class="nav-link">Contact Us</Link>
         </li>
+        
         <li class="nav-item">
           <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
         </li>
