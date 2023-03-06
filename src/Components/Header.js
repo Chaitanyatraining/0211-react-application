@@ -12,10 +12,7 @@ function Header() {
     </button>
     <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav">
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">Home</a>
-        </li>
-        <li class="nav-item">
+         <li class="nav-item">
           <Link to="userlistandkeys" class="nav-link">uselistandkeys</Link>
         </li>
         <li class="nav-item">
@@ -33,7 +30,18 @@ function Header() {
         <li class="nav-item">
           <Link to="pagination" class="nav-link">Pagination </Link>
         </li>
+        
         <li class="nav-item">
+          <Link to="contactUs" class="nav-link">Contact Us</Link>
+        </li>
+        
+        
+        <div class="dropdown">
+          <button class="btn btn-light dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Hooks
+          </button>
+          <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+          <li class="nav-item">
           <Link to="funccounter" class="nav-link">funcHooks </Link>
         </li>
         <li class="nav-item">
@@ -43,22 +51,17 @@ function Header() {
           <Link to="useEffectpagination" class="nav-link">useEffectPagination </Link>
         </li>
         <li class="nav-item">
-          <Link to="userefhook" class="nav-link">userefhook </Link>
+           <Link to="userefhook" class="nav-link">userefhook </Link>
         </li>
         <li class="nav-item">
           <Link to="usecontexthook" class="nav-link">usecontexthook</Link>
         </li>
-        <li class="nav-item">
-          <Link to="contactUs" class="nav-link">Contact Us</Link>
-        </li>
-        
-        <li class="nav-item">
-          <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-        </li>
-      </ul>
+          </div>
+        </div>
+        </ul>
     </div>
   </div>
-</nav>
+</nav> 
     </div>
   )
 }

@@ -3,7 +3,10 @@ import DemoComp from './DemoComp';
 import FunctionComp from './Components/FunctionComp';
 import ClassComp from './Components/ClassComp';
 import StylingComp from './stylings/StylingComp';
-import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap/dist/css/bootstrap.css'
+import 'bootstrap/dist/js/bootstrap.bundle'
+
+
 import Header from './Components/Header';
 import UserlistandKeys from './Components/UserlistandKeys';
 import RoutingComp from './Components/RoutingComp';
@@ -20,7 +23,7 @@ function App() {
     <usercontext.Provider value={"Reactjs Training"}>
       <CompA  />
     </usercontext.Provider>
-    {/* <RoutingComp /> */}
+     <RoutingComp /> 
 
     {/* <UserlistandKeys /> */}
       {/* <DemoComp />
@@ -29,6 +32,7 @@ function App() {
       {/* <StylingComp /> */}
 
    </div>
+   
  
   );
 }
